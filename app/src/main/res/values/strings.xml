@@ -5,4 +5,9 @@
     values-round/strings.xml for round devices.
     -->
     <string name="hello_world">From the Square world,\nHello, %1$s!</string>
+    <string name="hunger_50">Hunger: 50</string>
+    <string name="happiness_50">Happiness: 50</string>
+    <string name="feed">Feed</string>
+    <string name="play">Play</string>
+    <string name="image_desc">desc</string>
 </resources>
