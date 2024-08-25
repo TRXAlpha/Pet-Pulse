@@ -48,8 +48,8 @@ android {
 }
 
 dependencies {
-    implementation("androidx.core:core-ktx:1.10.1")
-    implementation("androidx.work:work-runtime-ktx:2.8.1")
+    implementation("androidx.core:core-ktx:1.13.1")
+    implementation("androidx.work:work-runtime-ktx:2.9.1")
     implementation(libs.play.services.wearable)
     implementation(platform(libs.compose.bom)) // Ensure Compose versions are consistent
     implementation(libs.ui) // Basic UI components for Compose
@@ -58,7 +58,7 @@ dependencies {
     implementation(libs.compose.foundation) // Foundation library for Compose
     implementation(libs.activity.compose) // Compose integration with Activities
     implementation(libs.core.splashscreen) // For splash screen handling
-    implementation("androidx.wear.compose:compose-material:1.3.1") // Wear OS Compose Material components
+    implementation("androidx.wear.compose:compose-material3:1.0.0-alpha23.1") // Wear OS Compose Material components
     androidTestImplementation(platform(libs.compose.bom))
     androidTestImplementation(libs.ui.test.junit4)
     debugImplementation(libs.ui.tooling)
